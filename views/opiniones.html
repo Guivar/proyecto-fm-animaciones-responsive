@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones | FM Fotografia</title>
+    <link rel="shortcut icon" href="../media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacion">
+            <!--Logo y Marca -->
+            <div class="logo-marca">
+                <a href="../index.html"> <img img class="logo-navegacion" src="../media/logo2.png"></a>
+                <h1>fotografia</h1>
+            </div>
+
+            <!--Navegacion-->
+            <div class="menu">
+                <!--Navegacion tipo Mobile-->
+                <label for="btn-menu" class="nav-label"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="btn-menu" class="nav-input">
+
+                <!--Barra de navegacion-->
+                <ul class="navegacion">
+                    <li><a class="enlaceNavegacion" href="./about.html">Sobre Mi</a></li>
+                    <li><a class="enlaceNavegacion" href="./portfolio.html">Portafolio</a></li>
+                    <li><a class="enlaceNavegacion" href="opiniones.html">Opiniones</a></li>
+                    <li><a class="enlaceNavegacion" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="cuerpo-opiniones">
+        <section class="seccion-opiniones">
+            <h2 class="subAbout">Opiniones</h2>
+            <div class="caja-opiniones">
+                <div class="box-opinion">
+                    <h3 class="nombreUsuario">Name cliente 1</h3>
+                    <!--Valoracion 1-->
+                    <p>Cras imperdiet arcu ullamcorper augue aliquam gravida. Nulla aliquet dolor sit amet volutpat scelerisque. Nulla maximus ornare dui non commodo.</p>
+                
+                </div>
+                <div class="box-opinion">
+                    <h3 class="nombreUsuario">Name cliente 2</h3>
+                    <!--Valoracion 2-->
+                    <p>Cras imperdiet arcu ullamcorper augue aliquam gravida. Nulla aliquet dolor sit amet volutpat scelerisque. Nulla maximus ornare dui non commodo.</p>
+                    
+                </div>   
+                <div class="box-opinion">
+                    <h3 class="nombreUsuario">Name cliente 3</h3>
+                    <!--Valoracion 2-->
+                    <p>Cras imperdiet arcu ullamcorper augue aliquam gravida. Nulla aliquet dolor sit amet volutpat scelerisque. Nulla maximus ornare dui non commodo.</p>
+                    
+                </div> 
+            </div>
+        </section>
+
+        <!--Formulario para agregar una nueva opinion--> 
+        <form class="formulario-opiniones">
+            <fieldset class="contenedor-formulario">
+                <legend>Agrega tu opinión</legend>
+
+                <div>
+                    <label for="nombre">Nombre</label> 
+                    <input class="inform" type="text" name="nombre"/>
+                </div>
+
+                <label for="opinion">Opinion</label> 
+                <textarea class="descripcion1" name="opinion" cols="10" rows="2"></textarea>
+                <input class="bottons" type="submit" value="Enviar">
+
+                <div>
+                    <label for="rango">Valoracion</label>
+                    <input class="inform" type="range" name="rango"/>
+                </div>
+                
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <!--Contacto de RRSS-->
+        <section class="botones-rrss">
+            <a href="https://www.facebook.com/franco.morales.1291" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5493886573210?text=Hola,%20necesito%20informacion." target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/francomorales14/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+        </section>
+        
+        <!--Pie de pagina con copy e iconos de redes sociales y enlaces a redes-->
+        <h4 id="piePagina">Copyrigth - Elaborado por Guillermo Varela</h4>
+    </footer>
+    
+    
+</body>
+</html>
